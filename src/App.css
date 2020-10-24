@@ -1,0 +1,23 @@
+.MuiDropzonePreviewList-removeButton {
+  right: 3rem !important;
+}
+
+body::after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+  background-image: url('./images/background.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  -ms-background-size: contain;
+  -o-background-size: contain;
+  -moz-background-size: contain;
+  -webkit-background-size: contain;
+  background-size: contain;
+  z-index: -1;
+}
